@@ -6,7 +6,7 @@ I was tasked with creating a portfolio page for my projects which conform to a s
  
 ## Usage
 
-This site can be used like any other, below you will find a screenshot of the current deployment of the site:
+This site can be used like any other, below you will find a screenshot of the current deployment of the site: ![Screenshot](/assets/images/challenge-2-screenshot.jpg)
 
 
 Here you can find a link to the deployed application : [Website](https://borthvader.github.io/scaling-potato/)
