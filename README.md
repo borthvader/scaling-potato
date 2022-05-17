@@ -7,13 +7,15 @@ I was tasked with creating a portfolio page for my projects which conform to a s
 ## Usage
 
 This site can be used like any other, below you will find a screenshot of the current deployment of the site:
-![screenshot]
 
-Here you can find a link to the deployed application : [Website]()
+
+Here you can find a link to the deployed application : [Website](https://borthvader.github.io/scaling-potato/)
 
 ## Credits
 
 The primary material was sourced from [GitLab](https://utoronto.bootcampcontent.com/utoronto-bootcamp/UTOR-VIRT-FSF-FT-05-2022-U-LOLC/-/tree/main/02-Advanced-CSS/02-Challenge)
+
+Other material was made using advice from [StackOverflow0] (https://stackoverflow.com/)
 
 ## License 
 
