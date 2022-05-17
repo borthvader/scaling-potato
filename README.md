@@ -15,7 +15,7 @@ Here you can find a link to the deployed application : [Website](https://borthva
 
 The primary material was sourced from [GitLab](https://utoronto.bootcampcontent.com/utoronto-bootcamp/UTOR-VIRT-FSF-FT-05-2022-U-LOLC/-/tree/main/02-Advanced-CSS/02-Challenge)
 
-Other material was made using advice from [StackOverflow0] (https://stackoverflow.com/)
+Other material was made using advice from [StackOverflow](https://stackoverflow.com/)
 
 ## License 
 
