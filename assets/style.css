@@ -4,10 +4,46 @@
 	--headings:#EFEAD8;
 	--text:#D0C9C0;
 }
-
+/* sets 1rem to 10px */
 html{
 	font-size: 62.5%;
 	scroll-behavior: smooth;
+}
+/* sets universal styling for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--headings);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
 }
 
 header {
@@ -25,7 +61,7 @@ header {
 	color:var(--headings);
 	font-style: normal;
 } 
-
+/* creates unordered list with no styling for nav links */
 .navbar ul {
   list-style-type: none;
   padding: 2rem;
@@ -40,7 +76,7 @@ header {
 	font-weight: bolder;
 	color: var(--text);
 }
-
+/* cursor hover creates underline */
 .links:hover {
 	border-bottom: 2px solid var(--text);
 }
@@ -60,7 +96,7 @@ body {
   margin-right: -1.5rem;
 }
 
-
+/* creates a left oriented heading bar */
 .section-header{
 	padding: 2rem;
 	float:left;
@@ -78,10 +114,10 @@ body {
 	margin: 4rem;
 	
 }
-
+/* creates an opaque caption that appears when cursor hovers */
 .project-caption {
 	width: 100%;
-  height:100%;
+  height: 100%;
   background:rgba(0, 0, 0, 0.7);
   position:absolute; 
   opacity:0; 
@@ -89,7 +125,7 @@ body {
 	-webkit-transition:all 300ms ease-in-out;
   -moz-transition:all 300ms ease-in-out;
   -o-transition:all 300ms ease-in-out;
--ms-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
 }
 
 .project-caption h3{
@@ -100,7 +136,7 @@ body {
 	margin-left:-15px;
 	text-transform:uppercase;
 	font-size:25px;
-	color:#00bfb6;
+	color:var(--accent);
 }
 
 .project-caption p{
@@ -141,7 +177,7 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
+/* creates a flex row for smaller project images */
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -186,7 +222,7 @@ body {
 	padding: 2rem;
 
 }
-
+/* set contact links to page formatting and ensures no change on click */
 a, a:hover, a:focus, a:active {
 	text-decoration: none;
 	color: inherit;
@@ -202,64 +238,8 @@ footer{
 	margin: 2rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0.625rem;
-  color: var(--headings);
-  font-weight: 700;
-  line-height: 1.1;
-}
+/* creates responsive layout at 2 breaks */
 
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
-  font-size: 3rem;
-}
-
-h4 {
-  font-size: 2.5rem;
-}
-
-h5 {
-  font-size: 2rem;
-}
-
-h6 {
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .main-project-container img {
-    width: 50%;
-		height: auto;
-	}
-
-	.row{
-		flex-direction: column;
-	}
-	.main-project-container{
-		width: 50%;
-		height: auto;
-	}
-	.project-container img{
-		width: 50%;
-		height: auto;
-	}
-	.project-caption{
-		width: 50%;
-		height: auto;
-	}
-}
 
 @media screen and (max-width: 992px) {
   header {
@@ -269,7 +249,36 @@ h6 {
   .main-project-container img {
     width:75%;
   	height:auto;
+		margin: 0 auto;
 		
   }
 	
 }
+
+@media screen and (max-width: 768px) {
+  .main-project-container img {
+    width: 75%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.row{
+		flex-direction: column;
+	}
+	.main-project-container{
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.project-container img{
+		width: 50%;
+		height: auto;
+	}
+	.project-caption{
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+
